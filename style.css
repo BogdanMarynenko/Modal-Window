@@ -1,0 +1,62 @@
+.wrapper {
+width: 800px;
+max-width: 100%;
+margin: 0 auto;
+}
+.modal {
+  font-family:"Colibri";
+  position:fixed;
+  z-index: 1000;
+  display: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.3);
+}
+.modal .modal_content {
+  background-color:rgba(104, 1, 1, 0.169);
+ 
+  color:white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid rgb(16, 15, 15);
+  width:30%;
+  font-size: 20px;
+  z-index:9999;
+}
+.close_modal_window {
+  color:red;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal_inner {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 15px;
+}
+.modal_title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn {
+  display:block;
+  text-align: center;
+  font-size: larger;
+  
+  margin-bottom:100px;
+  padding: 5px;
+  background-color:rgba(185, 58, 58, 0.251)
+}
+.btn:hover {
+  background-color:wheat
+}
+.btn:active{
+  opacity: 0.3;
+  background-color:rgb(213, 153, 40)
+}
